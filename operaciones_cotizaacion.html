@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cotizaciones</title>
+</head>
+<body>
+
+<h2 align="center">Selecciones el tipo de operacion</h2>
+<div>
+
+</div>
+<div id="crearCoti">
+  <form>
+    <h5>Datos del cliente</h5>
+    <div>
+      <label for="contacto">Contacto: </label>
+      <input type="text" name="contacto" id="contacto" size="20" pattern="[a-zA-Z]" required/>
+    </div>
+    <div>
+      <label for="nit">Nit: </label>
+      <input type="text" name="nit" id="nit" size="12" pattern="[a-zA-Z]"/>
+    </div>
+    <div>
+      <label for="correo">Email: </label>
+      <input type="email" name="correo" id="correo" size="20" required>
+    </div>
+
+    <button type="button">Generar Cotización</button>
+    <button type="reset">Borrar</button>
+
+    <h5>Detalle Honorarios</h5>
+    <label for="tarea">Tarea: </label>
+    <input type="text" name="tarea" id="tarea" size="40" required />
+    <label for="horas">Horas: </label>
+    <input type="text" name="horas" id="horas" size="4" required />
+
+    <h5>Recursos externos</h5>
+    <label for="recurso">Recurso: </label>
+    <input type="text" name="recurso" id="recurso" size="20" required />
+    <label for="costo" >Costo</label>
+    <input type="text" name="costo" id="costo" size="5" pattern="[0-9]" required />
+    
+
+  </form>
+</div>
+
+</body>
+</html>
